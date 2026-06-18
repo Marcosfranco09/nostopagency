@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoStop | Agencia Digital Creativa</title>
+    <meta name="description" content="noSTOP Marketing Agencia. Especialistas en Desarrollo Web y Marketing Digital orientados a escalar tu negocio.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍🚀</text></svg>">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Línea diagonal de fondo -->
+    <div class="bg-diagonal-line" id="bg-diagonal-line"></div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-container">
+                <img src="logo.png" alt="noSTOP Logo" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#proceso" class="nav-link">Proceso</a>
+                <a href="#contacto" class="btn btn-sm btn-outline">Hablemos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero -->
+    <header class="hero">
+        <!-- Elemento Astronauta en el Fondo del Viewport -->
+        <div class="astronaut-wrapper" id="astronaut-wrapper" style="position: fixed; top: 0; right: 0; width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: flex-end; padding-right: 5vw; z-index: 0; pointer-events: none;">
+            <img src="astronauta.png" alt="Astronauta" class="floating-element" style="height: 85vh; width: auto; max-width: none;" />
+        </div>
+
+        <div class="container hero-container" style="position: relative; z-index: 10;">
+            <div class="hero-content" style="max-width: 600px;">
+                <h1 class="hero-title reveal-text">
+                    <span class="line">Creatividad</span>
+                    <span class="line">Impulsamos tu Presencia Digital.</span>
+                </h1>
+                <p class="hero-subtitle reveal-fade" style="transition-delay: 0.2s">
+                    Transformamos ideas en productos digitales de alto impacto. Ofrecemos desarrollo web a medida y estrategias de marketing digital enfocadas en resultados reales.
+                </p>
+                <div class="hero-cta reveal-fade" style="transition-delay: 0.4s">
+                    <a href="#portfolio" class="btn btn-primary">Explorar Proyectos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- 2. Servicios -->
+    <section id="servicios" class="services section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Nuestros Dominios</h2>
+            <div class="split-domains-wrapper reveal">
+            <div class="split-domains-container">
+                
+                <div class="domain-panel panel-web">
+                    <div class="panel-content">
+                        <div class="service-icon">🌐</div>
+                        <h3 class="service-title">Desarrollo Web</h3>
+                        <div class="panel-details">
+                            <p class="service-desc">
+                                Sitios web rápidos, responsivos y escalables diseñados a medida. Usamos tecnologías modernas para experiencias digitales fluidas que convierten visitantes en clientes.
+                            </p>
+                            <ul class="service-list">
+                                <li>Landing Pages & E-commerce</li>
+                                <li>Aplicaciones Web</li>
+                                <li>Optimización de Performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="domain-panel panel-marketing">
+                    <div class="panel-content">
+                        <div class="service-icon">📈</div>
+                        <h3 class="service-title">Marketing Digital</h3>
+                        <div class="panel-details">
+                            <p class="service-desc">
+                                Estrategias de posicionamiento y contenido que capturan la atención. Construimos audiencias leales y campañas que generan impacto real.
+                            </p>
+                            <ul class="service-list">
+                                <li>Estrategia de Marca & Branding</li>
+                                <li>Gestión de Redes Sociales</li>
+                                <li>Campañas SEO & SEM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 1.5 Socios Estratégicos -->
+    <section class="partners-strip">
+        <div class="container text-center">
+            <p class="partners-title reveal">NUESTROS SOCIOS ESTRATÉGICOS</p>
+            <div class="partners-grid reveal">
+                                <div class="partner-logo">
+                    <img src="./img/logo_puerto.png" alt="Puerto Chopp" class="logo-shadow">
+                    <img src="./img/logo_puerto.png" alt="Puerto Chopp" class="logo-main">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logo_chipitas.png" alt="Chipitas Versil" class="logo-shadow">
+                    <img src="./img/logo_chipitas.png" alt="Chipitas Versil" class="logo-main">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logo_universo.png" alt="Grupo Universo Py" class="logo-universo logo-shadow">
+                    <img src="./img/logo_universo.png" alt="Grupo Universo Py" class="logo-universo logo-main">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logo_exaa.png" alt="Exa Nihon Oficial" class="logo-shadow">
+                    <img src="./img/logo_exaa.png" alt="Exa Nihon Oficial" class="logo-main">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logo_oye_chico.png" alt="Oye Chico Bar" class="logo-shadow">
+                    <img src="./img/logo_oye_chico.png" alt="Oye Chico Bar" class="logo-main">
+                </div>
+                <div class="partner-logo">
+                    <img src="./img/logo_canopy.png" alt="Canopy" class="logo-shadow">
+                    <img src="./img/logo_canopy.png" alt="Canopy" class="logo-main">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Portfolio Dev -->
+    <section class="portfolio section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Nuestro Trabajo en Dev</h2>
+        </div>
+        
+        <div class="carousel-container reveal">
+            <div class="carousel-track left-to-right">
+<!-- Group 1 -->
+                    <div class="portfolio-card" onclick="window.open('https://marcosfranco.vercel.app/', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/portfolio.png" alt="Marcos Franco Portfolio" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Marcos Franco | Portfolio</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Portfolio personal de desarrollador Full Stack.</p>
+                            <span class="tag">React, Framer Motion</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://puertochop-karaoke.onrender.com/', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/puerto_chop.png" alt="Puerto Chop Karaoke" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Puerto Chop Karaoke</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Aplicación web para un bar de karaoke.</p>
+                            <span class="tag">Node.js, Express, Socket.io</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://templaterestaurant.onrender.com', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/template.jpg" alt="Template Restaurant" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Template Restaurant</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Plantilla moderna para restaurantes y gastronomía.</p>
+                            <span class="tag">HTML, CSS, JS</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://taller-san-rafael.onrender.com', '_blank')">
+                        <div class="card-image">
+                            <img src="https://image.thum.io/get/width/600/crop/800/https://taller-san-rafael.onrender.com" alt="Taller San Rafael" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Taller San Rafael</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Landing page para taller mecánico automotriz.</p>
+                            <span class="tag">HTML, CSS, JS</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="showNotification(this)">
+                        <div class="desktop-notification">Servicio de escritorio</div>
+                        <div class="card-image">
+                            <img src="./img/mastertech.png" alt="MasterTech Servicio Tecnico" style="width: 100%; height: 100%; object-fit: cover; border-bottom: 1px solid rgba(0,0,0,0.05);" />
+                        </div>
+                        <div class="card-content">
+                            <h4>MasterTech | Servicio Técnico</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Panel de gestión para servicio técnico.</p>
+                            <span class="tag">React, Tailwind, Supabase</span>
+                        </div>
+                    </div>
+                    <!-- Duplicate for infinite loop -->
+                    <div class="portfolio-card" onclick="window.open('https://marcosfranco.vercel.app/', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/portfolio.png" alt="Marcos Franco Portfolio" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Marcos Franco | Portfolio</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Portfolio personal de desarrollador Full Stack.</p>
+                            <span class="tag">React, Framer Motion</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://puertochop-karaoke.onrender.com/', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/puerto_chop.png" alt="Puerto Chop Karaoke" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Puerto Chop Karaoke</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Aplicación web para un bar de karaoke.</p>
+                            <span class="tag">Node.js, Express, Socket.io</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://templaterestaurant.onrender.com', '_blank')">
+                        <div class="card-image">
+                            <img src="./img/template.jpg" alt="Template Restaurant" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Template Restaurant</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Plantilla moderna para restaurantes y gastronomía.</p>
+                            <span class="tag">HTML, CSS, JS</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="window.open('https://taller-san-rafael.onrender.com', '_blank')">
+                        <div class="card-image">
+                            <img src="https://image.thum.io/get/width/600/crop/800/https://taller-san-rafael.onrender.com" alt="Taller San Rafael" style="width: 100%; height: 100%; object-fit: cover;" />
+                        </div>
+                        <div class="card-content">
+                            <h4>Taller San Rafael</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Landing page para taller mecánico automotriz.</p>
+                            <span class="tag">HTML, CSS, JS</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" onclick="showNotification(this)">
+                        <div class="desktop-notification">Servicio de escritorio</div>
+                        <div class="card-image">
+                            <img src="./img/mastertech.png" alt="MasterTech Servicio Tecnico" style="width: 100%; height: 100%; object-fit: cover; border-bottom: 1px solid rgba(0,0,0,0.05);" />
+                        </div>
+                        <div class="card-content">
+                            <h4>MasterTech | Servicio Técnico</h4>
+                            <p class="service-desc" style="font-size: 0.9rem; margin-bottom: 0.5rem;">Panel de gestión para servicio técnico.</p>
+                            <span class="tag">React, Tailwind, Supabase</span>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Proceso -->
+    <section id="proceso" class="process section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Nuestro Proceso</h2>
+            
+            <div class="process-grid">
+                <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">1</div>
+                    <div class="timeline-content">
+                        <h3>Descubrimiento</h3>
+                        <p>Analizamos tu marca, mercado objetivo y metas a corto y largo plazo para alinear nuestra estrategia.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">2</div>
+                    <div class="timeline-content">
+                        <h3>Diseño & Estrategia</h3>
+                        <p>Creamos un mapa visual y conceptual. Diseñamos prototipos y definimos el tono de voz de tus campañas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">3</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollo & Ejecución</h3>
+                        <p>Programamos el sitio con código limpio y lanzamos las campañas en las plataformas óptimas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">4</div>
+                    <div class="timeline-content">
+                        <h3>Optimización Continua</h3>
+                        <p>Medimos los resultados, iteramos el diseño y optimizamos para maximizar tu retorno de inversión.</p>
+                    </div>
+                </div>
+                            </div>
+                <div class="process-visual sticky-visual reveal">
+                    <div class="vertical-marquee-container">
+
+                        <!-- Columna 1: sube -->
+                        <div class="marquee-column up">
+                            <div class="marquee-inner">
+                                <!-- Set original -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam1/400/600" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam2/400/500" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam3/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam4/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam5/400/650" alt="Session"></div>
+                                <!-- Clon exacto (para loop infinito) -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam1/400/600" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam2/400/500" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam3/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam4/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam5/400/650" alt="Session"></div>
+                            </div>
+                        </div>
+
+                        <!-- Columna 2: baja -->
+                        <div class="marquee-column down">
+                            <div class="marquee-inner" style="animation-delay: -3s;">
+                                <!-- Set original -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam6/400/650" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam7/400/550" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam8/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam9/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam10/400/500" alt="Session"></div>
+                                <!-- Clon exacto -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam6/400/650" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam7/400/550" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam8/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam9/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam10/400/500" alt="Session"></div>
+                            </div>
+                        </div>
+
+                        <!-- Columna 3: sube (desfasada) -->
+                        <div class="marquee-column up">
+                            <div class="marquee-inner" style="animation-delay: -1.5s;">
+                                <!-- Set original -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam11/400/500" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam12/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam13/400/600" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam14/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam15/400/650" alt="Session"></div>
+                                <!-- Clon exacto -->
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam11/400/500" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam12/400/700" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam13/400/600" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam14/400/450" alt="Session"></div>
+                                <div class="img-wrapper"><img src="https://picsum.photos/seed/s_cam15/400/650" alt="Session"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- 6. Testimonios -->
+    <section class="testimonials section">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Lo que dicen</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">"noSTOP transformó nuestra presencia digital por completo. Su atención al detalle en el desarrollo de nuestra plataforma es simplemente impecable."</p>
+                    <div class="testimonial-author">
+                        <strong>Elena Navarro</strong>
+                        <span>CEO, FlowTech</span>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.1s">
+                    <p class="testimonial-text">"La campaña de marketing que diseñaron triplicó nuestras ventas en el último trimestre. Creatividad al 100% y resultados tangibles."</p>
+                    <div class="testimonial-author">
+                        <strong>Marcos Rivas</strong>
+                        <span>Director de Marketing, Lumina</span>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.2s">
+                    <p class="testimonial-text">"No son solo una agencia, son verdaderos socios estratégicos. Entienden la marca y la elevan visualmente al siguiente nivel."</p>
+                    <div class="testimonial-author">
+                        <strong>Sofía Chen</strong>
+                        <span>Fundadora, Aura Cosmetics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CTA Final -->
+    <section id="contacto" class="cta-section section">
+        <div class="cta-aura-bg" id="cta-aura"></div>
+        <div class="container cta-container reveal">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para evolucionar tu marca?</h2>
+                <p class="cta-desc">Hablemos sobre tu próximo gran proyecto. Escríbenos y comencemos a crear algo extraordinario.</p>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Tu email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="¿En qué te podemos ayudar?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 8. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo-container" style="align-items: flex-start;">
+                    <img src="logo.png" alt="NoStop Logo" class="logo-img" style="height: 90px;">
+                </a>
+                <p class="footer-tagline">Agencia especializada en Desarrollo y Marketing.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Mapa del sitio</h4>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#proceso">Proceso</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Social</h4>
+                    <a href="https://www.instagram.com/nostop.agencia/" target="_blank">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter/X</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Contacto</h4>
+                    <a href="mailto:hola@nostop.com">hola@nostop.com</a>
+                    <span>+595 586 709 563</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 NoStop Agencia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
